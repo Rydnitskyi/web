@@ -113,24 +113,39 @@ body {
 }
 .menu-btn:hover {
     fill: #F16D7F;
+    outline: none;
 }
 .menu-btn:active {
     fill: brown;
+    outline: none;
+}
+.menu-btn:focus {
+    outline: none;
 }
 .account-btn:hover {
     fill: #F16D7F;
+    outline: none;
 }
 .account-btn:active {
     fill: brown;
+    outline: none;
+}
+.account-btn:focus {
+    outline: none;
 }
 .account-btn {
     margin: 0 33px;
 }
 .cart-btn:hover {
     fill: #F16D7F;
+    outline: none;
 }
 .cart-btn:active {
     fill: brown;
+    outline: none;
+}
+.cart-btn:focus {
+    outline: none;
 }
 
 /*=====HEADER END=====*/
@@ -309,10 +324,15 @@ body {
 .products-btn:hover {
     background-color: brown;
     color: aliceblue;
+    outline: none;
 }
 .products-btn:active {
     background-color: gray;
     color: white;
+    outline: none;
+}
+.products-btn:focus {
+    outline: none;
 }
 .back {
     display: none;
@@ -336,9 +356,14 @@ body {
 }
 .add-to:hover {
     background: gray;
+    outline: none;
 }
 .add-to:active {
     background: pink;
+    outline: none;
+}
+.add-to:focus {
+    outline: none;
 }
 .add-to-cart {
     padding-right: 10px;
@@ -451,7 +476,6 @@ body {
 }
 .subscribing-form {
     display: flex;
-    
 }
 .subscribing-form-email {
     box-sizing: border-box;
@@ -462,6 +486,9 @@ body {
     border-radius: 1.5em 0 0 1.5em;
     border: 1px solid rgba(0,0,0,0.3);
     padding: 0 1.5em;
+}
+.subscribing-form-email:focus {
+    outline: none;
 }
 .subscribing-form-email::placeholder {
     font-style: normal;
@@ -490,9 +517,14 @@ body {
 }
 .subscribing-form-btn:hover {
     background: gray;
+    outline: none;
 }
 .subscribing-form-btn:active {
     background: chartreuse;
+    outline: none;
+}
+.subscribing-form-btn:focus {
+    outline: none;
 }
 /*=====SUBSCRIBE END=====*/
 
@@ -625,11 +657,14 @@ body {
 }
 .filter-btn:active .filter-btn-txt, .filter-btn-svg:active {
     color: brown;
-    fill: brown;
+    fill: brown;   
 }
 .filter-btn:active .filter-btn-svg, .filter-btn-txt:active {
     color: brown;
     fill: brown;
+}
+.filter-btn:focus {
+    outline: none;
 }
 .filter-btn-txt {
     font-style: normal;
@@ -708,6 +743,9 @@ body {
 .slider-list-btn:active .slider-list-btn-svg {
     fill: brown;
 }
+.slider-list-btn:focus {
+    outline: none;
+}
 /*=====CATALOG END=====*/
 
 /*<<<<<<CATALOG.HTML END>>>>>>*/
@@ -738,6 +776,12 @@ body {
 }
 .arrow:hover .arrow-svg {
     fill: #F16D7F;
+}
+.arrow:active {
+    outline: 1px solid #F16D7F;
+}
+.arrow:focus {
+    outline: 1px solid #F16D7F;
 }
 /*=====PRODUCT-SLIDER END=====*/
 
@@ -863,6 +907,9 @@ body {
 .product-btn:active .product-btn-svg {
     fill:#fbfbfb;
 }
+.product-btn:focus {
+    outline: none;
+}
 /*=====PRODUCT-DESC END=====*/
 
 /*=====OTHER-PRODUCT=====*/
@@ -949,6 +996,9 @@ body {
 .item-btn-del:active .btn-del-svg {
     fill: brown;
 }
+.item-btn-del:focus {
+    outline: none;
+}
 .cart-items-btns {
     display: flex;
     justify-content: space-between;
@@ -970,6 +1020,9 @@ body {
 .item-btn:active {
     background-color: #F16D7F;
     color: #fbfbfb;
+}
+.item-btn:focus {
+    outline: 1px solid #F16D7F;
 }
 .cart-buy {
     box-sizing: border-box;
@@ -1003,6 +1056,9 @@ body {
     outline: none;
     padding-left: 16px;
 }
+.form-input-txt:focus {
+    outline: 1px solid #F16D7F;
+}
 .form-input-txt:placeholder {
     font-weight: 300;
     font-size: 13px;
@@ -1027,6 +1083,9 @@ body {
 .cart-buy-btn:active {
     background-color: #F16D7F;
     color: #fbfbfb;
+}
+.cart-buy-btn:focus {
+    outline: 1px solid #F16D7F;
 }
 .cart-buy-total {
     box-sizing: border-box;
@@ -1085,6 +1144,9 @@ body {
 .buy-total-btn:active {
     background-color: brown;
 }
+.buy-total-btn:focus {
+    outline: 1px solid black;
+}
 /*=====CART END=====*/
 
 /*<<<<<<CART.HTML END>>>>>>*/
@@ -1123,8 +1185,15 @@ body {
     height: 45px;
     box-sizing: border-box;
 }
+.first:focus {
+    outline: 1px solid #F16D7F; 
+}
 .first::placeholder {
     text-transform: capitalize;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
 }
 .radio-form {
     margin: 35px 0;
@@ -1144,6 +1213,10 @@ body {
 #radio-btn2 {
     width: 17px;
     height: 17px;
+}
+#radio-btn,
+#radio-btn2:focus {
+    outline: none;
 }
 .reg-p {
     font-weight: 300;
@@ -1169,6 +1242,9 @@ body {
 }
 .submit-btn:active {
     background-color: brown;
+}
+.submit-btn:focus {
+    outline: 1px solid black;
 }
 .reg-info {
     width: 650px;
