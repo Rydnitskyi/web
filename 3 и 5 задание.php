@@ -11,7 +11,7 @@
     $a = 1;
     $b = 2;
     $a = $a + $b - $a;
-    $b = $a + $b - $a;
+    $b = $a / $b;
     echo $a;
     echo $b;
 ?>
